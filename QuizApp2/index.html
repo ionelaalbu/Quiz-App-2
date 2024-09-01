@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <meta name="author" content="IonelaAlbu">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Parent">
+
+    
+    <main>
+        <div class="mainContainer">
+            <h1>Quiz App</h1>
+            <div class="info">
+                <h3>Games Rules</h3>
+                <p>1. Choose one option and click next button</p>
+                <p>2. You cannot choose multiple options, only one</p>
+                <p>3. If you click the quit button the games go back to home page</p>
+                <p>4. Every correct answer will increase the score, otherwise the score gonna be same</p>
+                <p>5. To the last question click the submit button to see your final score</p>
+            </div>
+            <button class="start">START</button>
+        </div>
+
+
+
+        <div class="quizContainer">
+            <p class="quiz-category"></p>
+            <div>
+                <span class="qns-count"></span>
+                <span class="cur-score"></span>
+            </div>
+            <div class="score"></div>
+            <p class="question-container"></p>
+            <div class="option-container">
+                <!-- <button type="button" class="selectBtn">First</button>
+                <button type="button" class="selectBtn">second</button>
+                <button type="button" class="selectBtn">third</button>
+                <button type="button" class="selectBtn">fourth</button> -->
+            </div>
+            <div class="cta-btns">
+                <button type="button" class="quit BT">Quit</button>
+                <button type="button" class="next BT">Next</button>
+            </div>
+        </div>
+
+
+
+
+        <div class="finalContainer">
+            <h1>Congratulations</h1>
+            <p class="lastP"></p>
+            <button type="button" class="back">BACK</button>
+        </div>
+
+    </main>
+    
+   
+</div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
